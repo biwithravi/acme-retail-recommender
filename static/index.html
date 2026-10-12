@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acme Retail: Online Shopping</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <header class="hdr">
+    <a class="logo" href="#/">acme<span>retail</span></a>
+    <form id="search-form" class="sbar" autocomplete="off">
+      <select id="cat-select" aria-label="Search category"><option value="">All</option></select>
+      <input id="q" type="search" placeholder="Search Acme Retail" aria-label="Search">
+      <button aria-label="Search">&#x1F50D;</button>
+    </form>
+    <a class="hlink" href="#/cart"><small>Hello, guest</small><b>Cart <span id="cart-count" class="cnt">0</span></b></a>
+  </header>
+  <nav class="subnav" id="subnav"><a href="#/">Today's Deals</a></nav>
+  <main id="app"></main>
+  <footer><a href="#" id="to-top">Back to top</a><p>Acme Retail Enterprises · similarity engine: FastText + cosine similarity · Ref AR-ML-2026-006</p></footer>
+  <script type="module" src="/static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+gensim>=4.3.2
+numpy>=1.26
+pandas>=2.1
+nltk>=3.8
+pytest>=8.0
+httpx>=0.27
